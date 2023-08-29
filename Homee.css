@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    box-sizing:border-box;
+  }
+  
+  nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    box-shadow: 0 2px 4px rgb(0,0,0,0.1);
+  }
+  
+  nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  a{
+    text-decoration: none;
+    color:black;
+  }
+  
+  nav a{
+    padding: 8px;
+  }
+  
+  li a{
+    color:indianred;
+  }
+  
+  .logo{
+    margin-left: 10px;
+    font-size: 1.4em;
+  }
+  
+  li a:hover{
+    border: 1px solid red;
+  }
+  
+  .banner-image{
+    background-image: url('banner.jpg');
+    height:100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+  }
+  
+  section#banner{
+    height: calc(100vh - 62px);
+  }
+  
+  .banner-image h2, .banner-image p{
+    font-size: 2.2em;
+    color: Red;
+  }
+  
+  .banner-image p{
+    font-weight: 600;
+    font-size: 2.4em;
+  }
+  
+  .banner-image p span{
+    color: rgb(255, 160, 166);
+  }
+  
+  .order-now{
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    color: indianred;
+    padding: 12px;
+    width: 150px;
+    margin-top: 30px;
+    text-align: center;
+    border: none;
+    border-radius: 17px;
+  }
+  
+  .order-now:hover{
+    background-color: yellow;
+    color: red;
+  }
+  
+  section#featured-pizzas h2{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.9em;
+    margin-bottom: 40px;
+  }
+  
+  .container-pizza{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+  }
+  
+  .container-pizza-image{
+    display: flex;
+    height: 250px;
+  }
+  
+  .container-pizza p{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 49px;
+    font-family: arial;
+    color: black;
+    font-weight: 300;
+  }
+  
+  section#customers h2{
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.9em;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .feedback{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 30px;
+    height: 100px;
+  }
+  
+  .feedback p{
+    font-size:1.2em;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  footer{
+    display: flex;
+    font-size: 1.5em;
+    justify-content: space-around;
+    margin-bottom: 30px;
+  }
